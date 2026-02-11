@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSG Student Details</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Quick inline styling for demo */
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    form div {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="radio"], input[type="checkbox"] {
+      width: auto;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WELCOME</h1>
+    <h2>BHARAT SIR GANG - Student Details</h2>
+
+    <form action="/submit" method="post">
+      <!-- Student Name -->
+      <div>
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter student name" required>
+      </div>
+
+      <!-- Address -->
+      <div>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" placeholder="Enter full address"></textarea>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter contact number">
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email">
+      </div>
+
+      <!-- Gender -->
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+      <!-- BSG Membership -->
+      <div>
+        <input type="checkbox" id="bsg" name="bsg" value="yes">
+        <label for="bsg">Student of BSG</label>
+      </div>
+
+      <!-- Feedback -->
+      <div>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..."></textarea>
+      </div>
+
+      <!-- Performance -->
+      <div>
+        <label for="performance">Performance:</label>
+        <select id="performance" name="performance">
+          <option value="Excellent">Excellent</option>
+          <option value="Average">Average</option>
+          <option value="Needs Improvement">Needs Improvement</option>
+        </select>
+      </div>
+
+      <!-- Submit -->
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <hr>
+
+<div style="text-align:center; margin:20px;">
+
+    <a href=""C:\HTML Web Design\My_Webpage.html""
+       style="padding:10px 20px; background-color:gray; color:white; text-decoration:none; border-radius:5px;">
+       ⬅ Previous
+    </a>
+
+    <a href=""C:\Users\karth\Downloads\html2\html\web1.html""
+       style="padding:10px 20px; background-color:blue; color:white; text-decoration:none; border-radius:5px; margin-left:15px;">
+       Next ➡
+    </a>
+
+</div>
+
+</body>
+</html>
